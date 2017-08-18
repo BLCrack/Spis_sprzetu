@@ -17,6 +17,7 @@ public class Main extends Application
         primaryStage.setTitle("Spis sprzętu");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.getIcons().add(new Image("file:logo_cm.jpg"));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
