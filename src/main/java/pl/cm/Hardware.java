@@ -10,6 +10,17 @@ public class Hardware
     private String accessory;
     private String information;
 
+    public Hardware(int inventoryNumber, String serialNumber, String name, String localization, String previousOwner, String accessory, String information)
+    {
+        this.inventoryNumber = inventoryNumber;
+        this.serialNumber = serialNumber;
+        this.name = name;
+        this.localization = localization;
+        this.previousOwner = previousOwner;
+        this.accessory = accessory;
+        this.information = information;
+    }
+
     public int getInventoryNumber() {
         return inventoryNumber;
     }

@@ -19,6 +19,9 @@ public class Main extends Application
         primaryStage.getIcons().add(new Image("file:logo_cm.jpg"));
         primaryStage.setResizable(false);
         primaryStage.show();
+
+        Database database = new Database();
+        database.test();
     }
 
 

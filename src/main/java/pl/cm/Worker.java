@@ -6,6 +6,13 @@ public class Worker
     private String name;
     private String secondName;
 
+    public Worker(int ID, String name, String secondName)
+    {
+        this.ID = ID;
+        this.name = name;
+        this.secondName = secondName;
+    }
+
     public int getID() {
         return ID;
     }
