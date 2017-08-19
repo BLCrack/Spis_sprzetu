@@ -13,7 +13,7 @@ public class Main extends Application
     @Override
     public void start(Stage primaryStage) throws Exception
     {
-        Parent root = FXMLLoader.load(getClass().getResource("/desktop.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/mainWindow.fxml"));
         primaryStage.setTitle("Spis sprzętu");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.getIcons().add(new Image("file:logo_cm.jpg"));
