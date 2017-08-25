@@ -40,4 +40,16 @@ public class Controller
     {
 
     }
+
+    public void clickInfoInMenu(ActionEvent event) throws Exception
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("/infoWindow.fxml"));
+        Stage primaryStage = new Stage();
+        primaryStage.setTitle("Spis sprzętu");
+        primaryStage.setScene(new Scene(root, 300, 250));
+        primaryStage.getIcons().add(new Image("file:logo_cm.jpg"));
+        primaryStage.setResizable(false);
+        primaryStage.show();
+    }
+
 }

@@ -8,7 +8,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="478.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.cm.Controller">
+<AnchorPane prefHeight="478.0"
+            prefWidth="766.0"
+            xmlns="http://javafx.com/javafx/null"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pl.cm.Controller">
    <children>
       <TextField layoutX="26.0" layoutY="35.0" prefHeight="25.0" prefWidth="165.0" />
       <MenuButton fx:id="menuSearch" layoutX="210.0" layoutY="35.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0">

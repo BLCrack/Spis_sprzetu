@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="181.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.cm.Controller">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="28.0" layoutY="54.0" prefHeight="21.0" prefWidth="238.0" text="Projekt i wykonanie :" textAlignment="RIGHT">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect></Label>
+      <Label alignment="CENTER" layoutX="61.0" layoutY="104.0" prefHeight="45.0" prefWidth="172.0" text="Bartosz Lorenc, 2017">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#9e2323" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

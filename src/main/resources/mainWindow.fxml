@@ -6,7 +6,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.cm.Controller">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.cm.Controller">
    <children>
       <Button fx:id="buttonHardware" layoutX="189.0" layoutY="55.0" mnemonicParsing="false" onAction="#clickButtonHardware" prefHeight="29.0" prefWidth="202.0" text="Przeglądaj sprzęt" />
       <Button fx:id="buttonWorkers" layoutX="189.0" layoutY="319.0" mnemonicParsing="false" onAction="#clickButtonWorkers" prefHeight="29.0" prefWidth="202.0" text="Pracownicy" />
@@ -18,7 +18,7 @@
           <Menu mnemonicParsing="false" text="Ustawienia">
             <items>
               <MenuItem mnemonicParsing="false" text="Ustaw bazę" />
-                <MenuItem mnemonicParsing="false" text="O programie.." />
+                <MenuItem fx:id="infoClick" mnemonicParsing="false" onAction="#clickInfoInMenu" text="O programie.." />
             </items>
           </Menu>
         </menus>
