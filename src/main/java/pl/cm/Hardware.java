@@ -9,8 +9,9 @@ public class Hardware
     private String previousOwner;
     private String accessory;
     private String information;
+    private double price;
 
-    public Hardware(int inventoryNumber, String serialNumber, String name, String localization, String previousOwner, String accessory, String information)
+    public Hardware(int inventoryNumber, String serialNumber, String name, String localization, String previousOwner, String accessory, String information, double price)
     {
         this.inventoryNumber = inventoryNumber;
         this.serialNumber = serialNumber;
@@ -19,6 +20,7 @@ public class Hardware
         this.previousOwner = previousOwner;
         this.accessory = accessory;
         this.information = information;
+        this.price = price;
     }
 
     public int getInventoryNumber() {
@@ -76,4 +78,8 @@ public class Hardware
     public void setInformation(String information) {
         this.information = information;
     }
+
+    public double getPrice() {return price;}
+
+    public void setPrice(double price) {this.price = price;}
 }
